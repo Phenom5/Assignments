@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main id="registration">
+
+        <div class="reg-form">
+
+            <div class="form-top">
+                <h2>Create an account</h2>
+                <p>Already have an account? <a href="Login page.html">Log in here</a></p>
+            </div>
+
+            <div class="form-bottom">
+
+                <form action="Register success.html">
+                    <div class="input-wrapper">
+
+                        <div class="input-fields">
+                            <label for="Name">First name</label>
+                            <input type="text" id="fname" name="fname" placeholder="Your first name">
+                        </div>
+                        
+
+                        <div class="input-fields">
+                            <label for="Name">Last name</label>
+                            <input type="text" id="lname" name="lname" placeholder="Your last name">
+                        </div>
+                        
+
+                        <div class="input-fields">
+                            <label for="Email">Email address</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email address">
+                        </div>
+                        
+
+                        <div class="input-fields">
+                            <label for="phone-number">Phone number</label>
+                            <input type="number" id="p-number" name="p-number" placeholder="Enter your phone number">
+                        </div>
+                        
+
+                        <div class="input-fields">
+                            <label for="gender">Gender</label>
+                            <select id="gender" name="gender">
+                                <option value="volvo">Male</option>
+                                <option value="saab">Female</option>
+                                <option value="fiat">Non-binary</option>
+                                <option value="audi">Other</option>
+                            </select>
+                        </div>
+                        
+
+                        <div class="input-fields">
+                            <label for="date-of-birth">Date of birth</label>
+                            <input type="date" id="date-of-birth" name="date-of-birth">
+                        </div>
+                        
+
+                        <div class="input-fields">
+                            <label for="fav-color">Favorite color</label>
+                            <input type="color" id="fav-color" name="fav-color">
+                        </div>
+                        <br>
+
+                        <div class="input-fields">
+                            <input type="submit" id="create-account" value="Create Account">
+                        </div>
+                        
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+
+    </main>
+    
+</body>
+</html>

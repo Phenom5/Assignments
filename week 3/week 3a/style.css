@@ -1,0 +1,308 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+ 
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+
+/*Navigation section*/
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lhs .logo {
+    color: #222222;
+    padding: 1em;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+/*Nav links*/
+
+nav {
+    padding: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+nav ul li a {
+    color: #222222;
+}
+
+
+
+
+
+
+/*Hero section*/
+
+
+#hero {
+    background-image: url(img/Phenom\ bg\ image.png);
+    width: 100%;
+    height: 90vh;
+    background-size: contain;
+}
+
+.introduction {
+    max-width: 45%;
+    padding: 10em 5em;
+}
+
+.introduction h3 {
+    font-size: 1.5em;
+}
+
+.introduction h1 {
+    font-size: 2.5em;
+}
+
+
+
+
+
+
+/*About section*/
+
+
+.about_me {
+    padding: 5em 5em;
+    width: 65%;
+}
+
+.about_me h2 {
+    font-size: 2em;
+}
+
+.about_me p {
+    font-size: 1.2em;
+}
+
+
+
+
+
+/*My services section*/
+
+
+#services {
+    background-color: #f0f0f0;
+    padding: 5em 5em;
+}
+
+.services .services_header {
+    padding-bottom: 2em;
+}
+
+.card_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapper {
+    display: block;
+    width: 30%;
+    min-height: 480px;
+    background-color: #ffffff;
+    box-shadow: 4px 8px 64px #d3d3d3;
+}
+
+.wrapper .card_img {
+    width: 100%;
+    height: 250px;
+}
+
+.wrapper .card_img img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.wrapper .card_content {
+    padding: 0 1.2em;
+}
+
+.wrapper .card_content p {
+    font-size: 0.9em;
+    padding-bottom: 2em;
+}
+
+
+
+
+
+
+/*Projects section*/
+
+
+#project_section {
+    margin: 0;
+    padding: 5em 5em;
+}
+
+.project_section h2 {
+    padding-bottom: 2em;
+}
+
+.projects_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.projects {
+    display: block;
+    width: 30%;
+    min-height: 350px;
+    background-color: #ffffff;
+    box-shadow: 4px 8px 64px #d3d3d3;
+}
+
+.projects .project_img {
+    width: 100%;
+    height: 250px;
+}
+
+.projects .project_img img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.projects h4 {
+    padding: 1.5em 2em;
+    color: #222222;
+}
+
+.projects h4:hover {
+    font-size: 1.3em;
+}
+
+
+
+
+
+/*Footer section*/
+
+footer {
+    background-color: #222222;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8em 4em;
+}
+
+
+
+
+
+
+
+
+
+
+/*Contact page styles*/
+
+
+
+#contact_me {
+    background-color: #f0f0f0;
+    padding-bottom: 10em;
+}
+
+#contact_header {
+    padding: 2em 0em;
+    text-align: center;
+}
+
+.form_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact_form {
+    background-color: #ffffff;
+    width: 40%;
+    padding: 3em 1.5em;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #222222;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }

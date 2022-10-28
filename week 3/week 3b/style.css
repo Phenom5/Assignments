@@ -1,0 +1,134 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    font-size: 16px;
+}
+
+#registration {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5em 0;
+}
+
+.reg-form {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 3em 3em;
+    border-radius: 15px;
+    width: 30%;
+}
+
+.form-top {
+    text-align: left;
+}
+
+.form-top h2 {
+    margin: 0.5em 0;
+}
+
+.form-top p {
+    font-size: 0.9em;
+    margin: 0.5em 0;
+}
+
+.form-top p a {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+.form-bottom {
+    display: block;
+}
+
+.input-fields {
+    padding: 0.5em 0;
+}
+
+input {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em 1.5em;
+}
+
+select {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em 1.5em;
+}
+
+input[type=submit] {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+}
+
+
+  
+
+
+
+/*Login page*/
+
+#login {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5em 0;
+}
+
+
+
+
+
+
+/*Register Success page*/
+
+#reg-success-page {
+    margin: 10em 0;
+    text-align: center;
+}
+
+#reg-success-page h2 {
+    margin: 2em;
+}
+
+#reg-success-page button {
+    padding: 1.5em 4em;
+    border: none;
+    border-radius: 5px;
+    background-color: #00a800;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+/*Login success page*/
+
+
+
+#login-success-page {
+    margin: 10em 0;
+    text-align: center;
+}
+
+#login-success-page h2 {
+    margin: 2em;
+}                         
+
+#login-success-page button {
+    padding: 1.5em 4em;
+    border: none;
+    border-radius: 5px;     
+    background-color: #00a800;
+    color: #ffffff;
+}
